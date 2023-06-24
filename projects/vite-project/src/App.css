@@ -1,6 +1,6 @@
 .tw-followCard {
     padding: 5px;
-    background-color: firebrick;
+    background-color: rgb(80, 80, 80);
     border-radius: 999px;
     display: flex;
     align-items: center;
@@ -45,6 +45,7 @@
 }
 
 .tw-followCard-button:hover {
+    background-color: rgba(4, 0, 255, 0.178);
     opacity: .8;
 }
 
