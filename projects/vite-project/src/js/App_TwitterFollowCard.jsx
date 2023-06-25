@@ -1,5 +1,5 @@
-import './App.css'
-import { TwitterFollowCard } from './TwitterFollowCard'
+import '../css/App_TwitterFollowCard.css'
+import { TwitterFollowCard } from '../components/TwitterFollowCard'
 
 const users = [
     {
@@ -28,7 +28,7 @@ const users = [
     },
 ]
 
-export function App() {
+export function App_TwitterFollowCard() {
 
     const format = (userName) => `@${userName}`
 
